@@ -35,4 +35,4 @@ ENV REPLICATION_PASS replica
 VOLUME  ["/etc/mysql", "/var/lib/mysql"]
 
 EXPOSE 3306
-CMD ["/run.sh"]
+CMD ["mysqld_safe"]
